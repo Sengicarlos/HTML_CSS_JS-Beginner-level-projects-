@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #555;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #222;
+}
+.clip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+.clip1{
+    background-image:url(/images/20230510_130411.jpg) ;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0,46% 0 ,39% 100%,0 100%);
+}
+.clip2{
+    background-image:url(/images/Screenshot_20230917-100453_Instagram.jpg) ;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(19% 0,85% 0 ,64% 100%,33% 100%);
+}
+.clip3{
+    background-image:url(/images/Screenshot_20240513-154726_Instagram.jpg) ;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(82% 0,100% 0 ,100% 100%,63% 100%);
+}
+.container:hover .clip{
+    clip-path:polygon(100% 0,100% 0,100% 100%,100% 100%) ;
+}
+.container .clip:hover{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+}
