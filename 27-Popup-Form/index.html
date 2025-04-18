@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="content-container">
+        <h1>Welcome to the real world</h1>
+        <P>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repudiandae aspernatur praesentium aliquid perspiciatis laborum nobis, illo odit quo neque aliquam ex exercitationem dignissimos esse libero blanditiis. Omnis, doloribus modi.
+        </P>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </div>
+  </header>
+
+  <section class="modal-container" id="modal">
+    <section class="modal">
+        <button class="close-btn" id="close">X</button>
+        <div class="modal-content">
+            <h1>Sign Up</h1>
+            <form action="#" class="modal-form">
+                <div>
+                    <label for="name">Name</label>
+                    <input 
+                    type="text"
+                    id="name"
+                    placeholder="Enter Name"
+                    class="form-input"
+                    >
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input 
+                    type="text"
+                    id="email"
+                    placeholder="Enter Email"
+                    class="form-input"
+                    >
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input 
+                    type="text"
+                    id="password"
+                    placeholder="Enter Password"
+                    class="form-input"
+                    >
+                </div>
+                <div>
+                    <label for="password2">Confirm Password</label>
+                    <input 
+                    type="text"
+                    id="password2"
+                    placeholder="Confirm  Password"
+                    class="form-input"
+                    >
+                </div>
+                <input type="submit" value="submit" class="subtmit-btn"/>
+            </form>
+        </div>
+    </section>
+  </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
