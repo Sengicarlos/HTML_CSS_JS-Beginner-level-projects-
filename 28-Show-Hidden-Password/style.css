@@ -43,12 +43,12 @@ input{
     align-items: center;
 
 }
-.eye-icon{
+#eye-icon{
     font-size: 20px;
     color: #777;
     transition: 0.2s ease;
 }
-#eye-icon{
+#eye-icon:hover{
     color: rgb(10,10,165);
     cursor: pointer;
 }

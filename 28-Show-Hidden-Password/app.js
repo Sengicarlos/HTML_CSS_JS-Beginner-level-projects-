@@ -7,4 +7,4 @@ eye.addEventListener('click',()=>{
     }else{
         input.type = "password";
     }
-})
+});
