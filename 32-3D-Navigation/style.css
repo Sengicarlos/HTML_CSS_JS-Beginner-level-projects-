@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    overflow: hidden;
+    position: relative;
+    background-color: #212121;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+    border: 2px solid white;
+}
+
+.toggle-btn{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
